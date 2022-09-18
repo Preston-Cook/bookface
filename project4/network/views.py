@@ -116,7 +116,7 @@ def following(request):
     
     posts = Post.objects.filter(poster__in=followed_users)
 
-    posts.order_by('-timestamp')
+    posts = posts.order_by('-timestamp')
 
     p = Paginator(posts, 10)
     page = request.GET.get('page')

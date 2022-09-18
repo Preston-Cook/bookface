@@ -1,0 +1,140 @@
+main {
+    padding: 15px;
+}
+
+h1, h3 {
+    padding-left: 15px;
+    font-family: 'Libre Baskerville', serif;
+}
+
+h6 {
+    font-family: 'Libre Baskerville', serif;
+}
+
+#logo {
+    height: 80px;
+}
+
+#nav {
+    font-family: 'Libre Baskerville', serif;
+}
+
+body {
+    background-color: #FFFFFF;
+}
+
+#login, #register, #follow {
+    background-color: #E64B3C;
+    border-color: #E64B3C;
+    padding: 10px;
+    border-radius: 15px;
+    font-family: 'Libre Baskerville', serif;
+}
+
+#post-content {
+    background-color: #E64B3C;
+    border-color: #E64B3C;
+    padding: 10px;
+    border-radius: 15px;
+    font-family: 'Libre Baskerville', serif;
+}
+
+#post-content:hover {
+    background-color: #E6403C;
+}
+
+
+.btn.btn-primary.edit {
+    background-color: #E64B3C;
+    border-color: #E64B3C;
+    padding: 10px;
+    border-radius: 10px;
+    font-family: 'Libre Baskerville', serif;
+    padding: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.btn.btn-primary.edit:hover {
+    background-color: #E6403C;
+}
+
+.post-body {
+    white-space: pre-line;
+}
+
+.btn.btn-primary.save {
+    margin-top: 5px;
+    background-color: #E64B3C;
+    border-color: #E64B3C;
+    padding: 10px;
+    border-radius: 10px;
+    font-family: 'Libre Baskerville', serif;
+    padding: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    display: none;
+}
+
+.btn.btn-primary.save:hover {
+    background-color: #E6403C;
+}
+
+.btn.btn-primary.discard {
+    margin-top: 5px;
+    background-color: #E64B3C;
+    border-color: #E64B3C;
+    padding: 10px;
+    border-radius: 10px;
+    font-family: 'Libre Baskerville', serif;
+    padding: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    display: none;
+}
+
+.btn.btn-primary.discard:hover {
+    background-color: #E6403C;
+}
+
+
+/* CSS for pagination */
+.page-link, .page-link:visited, .page-link:active {
+    font-family: 'Libre Baskerville', serif;
+    background-color: #E64B3C;
+    color: #F8F9FA !important;
+    text-decoration: none;
+}
+
+.page-link:hover {
+    background-color: #E6403C;
+}
+
+.fa-solid.fa-trash.fa-lg {
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+#delete-msg {
+    display: none;
+}
+
+.fa.fa-thumbs-up.fa-lg {
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.profile-link, .profile-link:visited, .profile-link:active, .profile-link {
+    color: #E64B3C;
+}
+
+#followers, #following {
+    font-family: 'Libre Baskerville', serif;
+}
+
+#following {
+    margin-left: 25%;
+}

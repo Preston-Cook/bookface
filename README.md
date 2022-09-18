@@ -1,4 +1,4 @@
-# bookface
+# BookFace
 A bare-bones social media network created using Django, JavaScript, Jinja, Bootstrap, and HTML
 
 Users can create posts, edit their posts, delete posts, like posts, follow other users, and view a curated page for posts from the followers, and more.

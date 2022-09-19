@@ -1,8 +1,4 @@
 # BookFace
-A bare-bones social media network created using Django, JavaScript, Jinja, Bootstrap, and HTML
-
-Users can create posts, edit their posts, delete posts, like posts, follow other users, view a curated page of posts from the followers, and more.
-
-The liking, following, editing, and deletion features were implemented through JavaScript's fetch API by sending PUT, DELETE, and GET requests to a server running Django as a web framework.
+An MVP of a social media network using Django to handle web requests, JavaScript's fetch API to asynchronously query a SQLite database with custom API routes, and Jinja to dynamically change HTML content. The aesthetics of the site were achieved with Bootstrap 5
 
 The site also includes pagination made avaiable by Django's paginator. 
